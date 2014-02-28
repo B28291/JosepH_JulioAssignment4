@@ -48,7 +48,25 @@ var emailVal = function(emailInput){
 
 };		
 	
-	
+var UrlVal = function(UrlInput){
+
+var valInput1 = "http://";
+var valInput2 = "https://";
+
+var valUserInput1 = UrlInput.substring(0,6); 
+var valUserInput2 = UrlInput.substring(0,7);
+
+ if(valUserInput1 = valInput1){
+ 
+    if(valUserInput2 = valInput2){
+    
+    	return true;
+    
+    	}else { return false; }
+    
+}else{ return false; };	
+
+};
 	
 	
 	
@@ -60,4 +78,6 @@ var emailVal = function(emailInput){
 	
 	
 //main code 
-phoneNumPattern(201-212-1844);
+phoneNumVal(201-212-1844);
+emailVal("juliojoseph@fullsail.edu");
+UrlVal("https://www.fullsail.com");
