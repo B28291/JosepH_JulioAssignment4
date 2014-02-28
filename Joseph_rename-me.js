@@ -1,5 +1,9 @@
 //alert("JavaScript works!");
 
+// global variables
+
+var numbers = new Array[1234567]
+
 //functions 
 
 
@@ -85,7 +89,21 @@ var splitUpper = function(wordInput){
 
 }:
 
+// array 
 
+var SecGreatestNum(myArray,MyNum){
+
+	for( i = 0; i < myArray.length]; i++){
+	 
+	 while(myNum > MyArray[i]){ 
+	 myArray ++;
+	 };
+	 
+	 return myArray  
+	};
+
+
+};
 	
 	
 	
@@ -99,3 +117,4 @@ phoneNumVal(201-212-1844);
 emailVal("juliojoseph@fullsail.edu");
 UrlVal("https://www.fullsail.com");
 splitUpper("myhouse");
+SecGreatestNum(numbers,9)
