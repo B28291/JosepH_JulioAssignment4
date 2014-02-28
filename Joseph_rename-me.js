@@ -68,7 +68,24 @@ var valUserInput2 = UrlInput.substring(0,7);
 
 };
 	
+var splitUpper = function(wordInput){
 	
+	var firstWord = wordInput.substring(0,1);
+	var secWord = wordInput.substring(2,6);
+	
+	var firstLetter = firstWord.charAt(0);
+	var secLetter = secWord.charAt(2);
+	
+	var upperCase1 = firstLetter.toUpperCase();
+	var upperCase2 = secLetter.toUpperCase();
+	
+	var newWord = (firstWord + SecWord);
+	
+	return Word;  
+
+}:
+
+
 	
 	
 	
@@ -81,3 +98,4 @@ var valUserInput2 = UrlInput.substring(0,7);
 phoneNumVal(201-212-1844);
 emailVal("juliojoseph@fullsail.edu");
 UrlVal("https://www.fullsail.com");
+splitUpper("myhouse");
